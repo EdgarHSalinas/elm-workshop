@@ -1,0 +1,8 @@
+{
+  "elm.makeCommand": "./node_modules/.bin/elm-make",
+  "elm.formatCommand": "./node_modules/.bin/elm-format",
+  "editor.tabSize": 1,
+  "[elm]": {
+    "editor.formatOnSave": true
+  },
+}
