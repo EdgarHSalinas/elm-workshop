@@ -12,15 +12,13 @@ model =
         }
     }
 
-
-main =
-    let
-        elmHubHeader =
+elmHubHeader =
             header []
                 [ h1 [] [ text "ElmHub" ]
                 , span [ class "tagline" ] [ text "Like GitHub, but for Elm things." ]
                 ]
-    in
+
+main =
     div [ class "content" ]
         [ elmHubHeader
         , ul [ class "results" ]
