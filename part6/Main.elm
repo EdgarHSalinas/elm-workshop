@@ -57,7 +57,10 @@ decodeResults json =
         Ok searchResults ->
             searchResults
         Err errorMessage ->
-            [] -- Usually you send the message somewhere to be Recorded
+            [] 
+        -- Usually you send the message somewhere to be Recorded
+        -- Can use Debug.log "Error Happened " []
+        -- In Dev Mode
 
 
 view : Model -> Html Msg
